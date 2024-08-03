@@ -1,1 +1,1 @@
-# CSharp-Interview-Questions by Emin Imanverdiyev
+# CSharp Interview Questions by Emin Imanverdiyev
