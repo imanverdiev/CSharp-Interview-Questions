@@ -129,3 +129,52 @@ Here, GenericList<float> is a generic class. In each of these instances of Gener
 
    }
 }
+````
+## 5. What are extension methods in C#?
+Extension methods help to add new methods to the existing ones. The methods that are added are static. At times, when you want to add methods to an existing class but don’t perceive the right to modify that class or don’t hold the rights, you can create a new static class containing the new methods. Once the extended methods are declared, bind this class with the existing one and see the methods will be added to the existing one.
+
+### Example:
+
+```csharp
+// C# program to illustrate the concept of extension methods
+using System;
+
+namespace ExtensionMethod
+{
+    static class NewMethodClass
+    {
+        // Method 4
+        public static void M4(this Scaler s)
+        {
+            Console.WriteLine("Method Name: M4");
+        }
+
+        // Method 5
+        public static void M5(this Scaler s, string str)
+        {
+            Console.WriteLine(str);
+        }
+    }
+
+    // Now we create a new class in which Scaler class access all the five methods
+    public class IB
+    {
+        // Main Method
+        public static void Main(string[] args)
+        {
+            Scaler s = new Scaler();
+            s.M1();
+            s.M2();
+            s.M3();
+            s.M4();
+            s.M5("Method Name: M5");
+        }
+    }
+}
+````
+##Output:
+Method Name: M1
+Method Name: M2
+Method Name: M3
+Method Name: M4
+Method Name: M5
