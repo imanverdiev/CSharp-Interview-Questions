@@ -8,6 +8,8 @@ Inheritance means acquiring some of the properties from a master class.
 
 ![image](https://github.com/user-attachments/assets/33204787-d62c-4ef2-967f-13ff7914c2a3)
 
+Also, C# doesn’t support multiple inheritances. 
+Instead, you can use interfaces to inherit the properties using the class name in the signature.
 
 Here, class C can inherit properties from Class A and Class B.
 
@@ -78,7 +80,3 @@ public class Scaler1
         obj.languages();
     }
 }
-
-
-Also, C# doesn’t support multiple inheritances. 
-Instead, you can use interfaces to inherit the properties using the class name in the signature.
