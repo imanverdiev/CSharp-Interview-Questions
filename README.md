@@ -172,9 +172,14 @@ namespace ExtensionMethod
     }
 }
 ````
-##Output:
+Output:
+
 Method Name: M1
+
 Method Name: M2
+
 Method Name: M3
+
 Method Name: M4
+
 Method Name: M5
