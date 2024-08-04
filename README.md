@@ -78,3 +78,7 @@ public class Scaler1
         obj.languages();
     }
 }
+
+
+Also, C# doesn’t support multiple inheritances. 
+Instead, you can use interfaces to inherit the properties using the class name in the signature.
