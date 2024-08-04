@@ -1,6 +1,4 @@
-![image](https://github.com/user-attachments/assets/1a4bed04-679c-41aa-897d-f913c8e992b2)# CSharp Interview Questions by Emin Imanverdiyev
-
-# C# Interview Questions by Emin Imanverdiyev
+# CSharp Interview Questions by Emin Imanverdiyev
 
 ## 1. How is C# different from C?
 C is a procedural language, while C# is an object-oriented language. The biggest difference is that C# supports automatic garbage collection through the Common Language Runtime (CLR), whereas C does not. C# primarily requires the .NET framework to execute, while C is a platform-agnostic language.
@@ -8,7 +6,8 @@ C is a procedural language, while C# is an object-oriented language. The biggest
 ## 2. What is inheritance? Does C# support multiple inheritance?
 Inheritance means acquiring some of the properties from a master class. 
 
-![Inheritance Example](https://github.com/user-attachments/assets/ac4008eb-ee67-4617-abc6-fce833044110)
+![image](https://github.com/user-attachments/assets/33204787-d62c-4ef2-967f-13ff7914c2a3)
+
 
 Here, class C can inherit properties from Class A and Class B.
 
