@@ -113,5 +113,19 @@ class IB {
        {
            Console.WriteLine(names);
        }
+````
+## 4. What are Generics in C#?
+In C# collections, defining any kind of object is termed okay which compromises C#’s basic rule of type-safety. Therefore, generics were included to type-safe the code by allowing re-use of the data processing algorithms. Generics in C# mean not linked to any specific data type. Generics reduce the load of using boxing, unboxing, and typecasting objects. Generics are always defined inside angular brackets `<>`.
+
+To create a generic class, this syntax is used:
+
+```csharp
+GenericList<float> list1 = new GenericList<float>();
+GenericList<Features> list2 = new GenericList<Features>();
+GenericList<Struct> list3 = new GenericList<Struct>();
+````
+Here, GenericList<float> is a generic class. In each of these instances of GenericList<T>, every occurrence of T in the class is substituted at run time with the type argument. By substituting the T, we have created three different type-safe uses of the same class.
+
+
    }
 }
